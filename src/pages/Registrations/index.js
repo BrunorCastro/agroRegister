@@ -14,12 +14,7 @@ export default function Registrations() {
     return (
         <View style={styles.container}>
              <View style={styles.containerLogo}>
-                <Animatable.Image
-                    animation='flipInY'
-                    source={require('../../assets/logo.png')}
-                    style={{width: "25%" }}
-                    resizeMode="contain"
-                />    
+                <Text style={styles.text}>CADASTRO</Text>
             </View>
 
             <Animatable.View animation='fadeInUp' delay={500} style={styles.containerForm}>

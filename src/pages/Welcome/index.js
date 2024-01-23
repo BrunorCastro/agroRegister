@@ -26,9 +26,8 @@ export default function Welcome(){
                 />    
             </View>
 
-            <Animatable.View delay={3000} animation='fadeInUp' style={styles.containerForm}>
-                <Text style={styles.title}>Monitore, organize seus rebanhos de qualquer lugar!</Text>
-
+            <Animatable.View delay={500} animation='fadeInUp' style={styles.containerForm}>
+                
                 <TouchableOpacity 
                 style={styles.button}
                 onPress={ () => navigation.navigate('SignIn')}>

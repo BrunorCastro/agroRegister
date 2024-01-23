@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#034001",
+    backgroundColor: "#f1f1f1",
   },
   containerLogo:{
     flex:1,
@@ -12,19 +12,24 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
 },
   containerForm: {
-    backgroundColor: "#fff",
-    flex: 6,
+    backgroundColor: "#f1f1f1",
+    flex: 10,
     paddingStart: "5%",
     paddingEnd: "5%",
+    marginTop:70,
   },
   title: {
     fontSize: 20,
-    marginTop: 1,
+    marginTop: 5,
+  },
+  text:{
+    fontSize:25,
+    marginTop: 10,
   },
   input: {
     borderBottomWidth: 1,
-    height: 40,
-    marginBottom: 12,
+    height: 30,
+    marginBottom: 1,
     fontSize: 16,
   },
   button: {
@@ -32,7 +37,7 @@ export const styles = StyleSheet.create({
     width: "60%",
     borderRadius: 50,
     paddingVertical: 8,
-    marginTop: 100,
+    marginTop: 150,
     justifyContent: "center",
     alignItems: "center",
     alignSelf: "center",

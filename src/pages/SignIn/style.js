@@ -7,16 +7,10 @@ export const styles = StyleSheet.create({
         backgroundColor: "#034001",
     },
     containerLogo:{
-        flex:2,
+        flex:3,
         backgroundColor: "#034001",
         justifyContent:'center',
         alignItems: 'center',
-    },
-    containerHeader:{
-        flex:1,
-        marginTop: '14%',
-        marginBottom: '8%',
-        paddingStart: '5%',
     },
     message:{
         fontSize: 28,
@@ -32,21 +26,21 @@ export const styles = StyleSheet.create({
         paddingEnd: '5%',
     },
     title:{
-        fortSize: 20,
-        marginTop: 28,
+        fortSize: 30,
+        marginTop: 15,
     },
     input:{
         borderBottomWidth: 1,
         height: 40,
-        marginBottom: 12,
-        fontSize: 16,
+        marginBottom: 10,
+        fontSize: 15,
     },
     button:{
         backgroundColor: "#034001",
-        width: '60%',
+        width: '100%',
         borderRadius: 50,
         paddingVertical: 8,
-        marginTop:100,
+        marginTop:40,
         justifyContent: 'center',
         alignItems: 'center',
         width: '60%',
@@ -65,8 +59,6 @@ export const styles = StyleSheet.create({
     registertext:{
         color: '#a1a1a1',
     },
-
-
 })
 
 export default styles;
