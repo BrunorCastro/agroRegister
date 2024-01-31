@@ -13,7 +13,7 @@ import * as Animatable from 'react-native-animatable';
 export default function Main() {
     return (
        <View>
-            <Text>Tela principal</Text>
+            <Text>vamos nessa</Text>
        </View>
     );
 }
