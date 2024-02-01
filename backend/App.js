@@ -1,12 +1,10 @@
-// const express = require('express');
-// const app = express();
+ const express = require('express');
+ const app = express();
 
-// 
-// const admin = require('firebase-admin');
-// const serviceAccount = require('./BackEnd/agro-6ffc8-firebase-adminsdk-hvck8-f1b01e27c9.json');
+ 
+ const admin = require('firebase-admin');
+ const serviceAccount = require('./backend/agro-6ffc8-firebase-adminsdk-hvck8-8366ff3a8e.json');
 
-
-// 
 
 // //app.use(express.json());
 // //app.use(express.urlencoded({ extended: false }));
